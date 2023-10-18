@@ -36,7 +36,7 @@ void getChallengeProperties();
 /////  CUSTOM FUNCTIONS /////
 
 
-char host[255] = "127.0.0.1";  //Change accordingly
+char host[255] = "172.26.40.14";  //Change accordingly
 
 
 //Extracted from other challenge
