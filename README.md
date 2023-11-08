@@ -1,7 +1,7 @@
 # Challenge_Blockchain
-Challenge that checks if there is a current connection with Secureworld blockchain
+Challenge que comprueba si existe una conexión actual con Secureworld blockchain
 
-ejemplo de configuracion json
+Ejemplo de configuracion json
 ```json
 {
 	"FileName": "blockchain_challenge.dll",
@@ -13,3 +13,9 @@ ejemplo de configuracion json
 	"Requirements": "none"
 }
 ```
+
+## Funcionamiento
+
+Se hace uso del comando ping del sistema, lanzado desde C. El challenge lanza un ping a una dirección IP donde se encuentra uno de los nodos de la blockchain. La respuesta es un booleano (0 no, 1 sí) y constituye la clave del challenge.
+
+
